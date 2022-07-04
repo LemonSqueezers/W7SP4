@@ -6,4 +6,6 @@ reg delete HKEY_CLASSES_ROOT\ms-msdt /f
 
 echo Patched.
 pause
-echo Run CVE2020-1054.reg. If you continue, it will run proxy.exe
+echo Run CVE2020-1054.reg. If you continue, it will run proxy.exe. after the REG tweaks, run DisableTelemetry.bat
+pause
+start proxy.exe
